@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Relatórios - Biblioteca</title>
+</head>
+
+<body>
+    <div class="app">
+        <nav>
+            <a href="home.html" class="logo">
+                <div class="logo-box">
+                    <h1>BB</h1>
+                    <p>Biblioteca Boa Leitura</p>
+                </div>
+            </a>
+            <ul>
+                <li><span class="material-symbols-outlined">home</span><a href="home.html">Home</a></li>
+                <li><span class="material-symbols-outlined">menu_book</span><a href="books.html">Livros</a></li>
+                <li class="active"><span class="material-symbols-outlined">insert_chart</span><a href="reports.html">Relatórios</a></li>
+                <li><span class="material-symbols-outlined">manage_accounts</span><a href="librarians.html">Bibliotecário</a></li>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <div class="search-box">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" placeholder="Pesquisar...">
+                </div>
+                <div class="profile-box">
+                    <div class="avatar">BB</div>
+                    <span id="user-name">Usuário</span>
+                    <a href="#" id="logout-button">SAIR</a>
+                </div>
+            </header>
+
+            <section class="content-box">
+                <div class="content-header">
+                    <h2>Relatórios</h2>
+                </div>
+                <ul class="reports-list">
+                    <li><a href="report-books.html">Lista de livros</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/auth.js"></script>
+</body>
+
+</html>

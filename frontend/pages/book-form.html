@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Livro - Biblioteca</title>
+</head>
+
+<body>
+    <div class="app">
+        <nav>
+            <a href="home.html" class="logo">
+                <div class="logo-box">
+                    <h1>BB</h1>
+                    <p>Biblioteca Boa Leitura</p>
+                </div>
+            </a>
+            <ul>
+                <li><span class="material-symbols-outlined">home</span><a href="home.html">Home</a></li>
+                <li class="active"><span class="material-symbols-outlined">menu_book</span><a href="books.html">Livros</a></li>
+                <li><span class="material-symbols-outlined">insert_chart</span><a href="reports.html">Relatórios</a></li>
+                <li><span class="material-symbols-outlined">manage_accounts</span><a href="librarians.html">Bibliotecário</a></li>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <div class="search-box">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" placeholder="Pesquisar...">
+                </div>
+                <div class="profile-box">
+                    <div class="avatar">BB</div>
+                    <span id="user-name">Usuário</span>
+                    <a href="#" id="logout-button">SAIR</a>
+                </div>
+            </header>
+
+            <section class="content-box">
+                <form class="form-box" id="book-form">
+                    <div class="form-header">
+                        <h2 id="form-title">Novo livro</h2>
+                        <label>
+                            <input type="checkbox" id="status" name="status" checked> Disponível
+                        </label>
+                    </div>
+
+                    <div class="form-section"><h3>1º Dados do livro</h3></div>
+
+                    <label for="title">Título</label>
+                    <input type="text" id="title" name="title">
+
+                    <div class="form-row">
+                        <div>
+                            <label for="author">Autor</label>
+                            <input type="text" id="author" name="author">
+                        </div>
+                        <div>
+                            <label for="year">Ano</label>
+                            <input type="number" id="year" name="year">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div>
+                            <label for="genre">Gênero</label>
+                            <input type="text" id="genre" name="genre">
+                        </div>
+                        <div>
+                            <label for="isbn">ISBN</label>
+                            <input type="text" id="isbn" name="isbn">
+                        </div>
+                    </div>
+
+                    <label for="publisher">Editora</label>
+                    <input type="text" id="publisher" name="publisher">
+
+                    <div class="form-section"><h3>2º Sinopse</h3></div>
+                    <textarea id="synopsis" name="synopsis" rows="4"></textarea>
+
+                    <div class="form-section"><h3>3º Observações</h3></div>
+                    <textarea id="notes" name="notes" rows="3"></textarea>
+
+                    <button type="submit" class="btn-save" id="save-button">GRAVAR</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/auth.js"></script>
+    <script src="../assets/js/book-form.js"></script>
+</body>
+
+</html>

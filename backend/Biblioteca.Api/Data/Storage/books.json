@@ -1,0 +1,7 @@
+[
+  { "Id": 1, "Status": true,  "Title": "Dom Casmurro", "Author": "Machado de Assis", "Year": 1899, "Genre": "Romance", "Publisher": "Garnier", "Isbn": "978-85-000-0001", "Synopsis": "Bentinho relembra a infância e o ciúme de Capitu.", "Notes": "", "CreatedAt": "2026-08-29T00:00:00" },
+  { "Id": 2, "Status": false, "Title": "1984", "Author": "George Orwell", "Year": 1949, "Genre": "Ficção científica", "Publisher": "Companhia das Letras", "Isbn": "978-85-000-0002", "Synopsis": "Distopia totalitária vigiada pelo Grande Irmão.", "Notes": "Emprestado para turma da tarde.", "CreatedAt": "2026-08-22T00:00:00" },
+  { "Id": 3, "Status": true,  "Title": "O Pequeno Príncipe", "Author": "Antoine de Saint-Exupéry", "Year": 1943, "Genre": "Fábula", "Publisher": "Agir", "Isbn": "978-85-000-0003", "Synopsis": "Um piloto encontra um príncipe vindo de outro planeta.", "Notes": "", "CreatedAt": "2026-08-14T00:00:00" },
+  { "Id": 4, "Status": true,  "Title": "Sapiens", "Author": "Yuval Noah Harari", "Year": 2011, "Genre": "Não-ficção", "Publisher": "L&PM", "Isbn": "978-85-000-0004", "Synopsis": "Uma breve história da humanidade.", "Notes": "", "CreatedAt": "2026-09-01T00:00:00" },
+  { "Id": 5, "Status": false, "Title": "Clean Code", "Author": "Robert C. Martin", "Year": 2008, "Genre": "Tecnologia", "Publisher": "Prentice Hall", "Isbn": "978-85-000-0005", "Synopsis": "Boas práticas para escrever código legível.", "Notes": "Emprestado para o setor de TI.", "CreatedAt": "2026-07-25T00:00:00" }
+]

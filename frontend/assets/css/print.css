@@ -1,0 +1,12 @@
+nav, header, .content-header button, .actions {
+    display: none !important;
+}
+
+.content-box {
+    margin: 0;
+    box-shadow: none;
+}
+
+body {
+    background: #fff;
+}
